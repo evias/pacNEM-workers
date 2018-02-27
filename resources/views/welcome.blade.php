@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>evias/nem-php-examples</title>
+        <title>PacNEM Game Status</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -79,13 +79,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    evias/nem-php-examples
+                    PacNEM Game Status
                 </div>
 
                 <div class="links">
-                    <a href="https://github.com/evias/nem-php" target="_blank">nem-php Library</a>
-                    <a href="/getting-started">Getting Started</a>
-                    <a href="/nem-sandbox">NEM Sandbox</a>
+                <a href="https://github.com/evias/pacNEM-workers" target="_blank">Source code</a>
+                <a href="https://github.com/evias/pacNEM" target="_blank">PacNEM Source code</a>
+                <a href="https://github.com/evias/nem-php" target="_blank">nem-php Library</a>
+                <a href="/status">Getting Started</a>
                 </div>
             </div>
         </div>
