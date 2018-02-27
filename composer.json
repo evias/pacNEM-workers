@@ -1,12 +1,12 @@
 {
-    "name": "evias/nem-php-examples",
-    "description": "Example integrations for the nem-php Package.",
+    "name": "evias/pacNEM-workers",
+    "description": "This is a collection of Worker for the PacNEM Game.",
     "keywords": ["laravel", "framework", "nem", "cryptocurrency", "api", "sdk", "restful", "laravel-nem", "evias", "Gregory Saive", "nem-php", "php-nem"],
     "license": "MIT",
     "type": "project",
     "support": {
-        "issues": "https://github.com/evias/nem-php-examples/issues",
-        "source": "https://github.com/evias/nem-php-examples"
+        "issues": "https://github.com/evias/pacNEM-workers/issues",
+        "source": "https://github.com/evias/pacNEM-workers"
     },
     "authors": [
         {
@@ -67,5 +67,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["nem-examples"]
+    "bin": ["pacnem-workers"]
 }
