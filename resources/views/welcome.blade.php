@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    evias/nem-php-examples
                 </div>
 
                 <div class="links">

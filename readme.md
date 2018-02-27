@@ -29,6 +29,16 @@ Now you are ready to test out the NEM SDK for PHP!
 
 NEMjoy :)
 
+## Running the PHP server (included if you want)
+
+Execute the following to use Laravel's housebaked PHP Server that is provided with this package.
+
+```bash
+$ php artisan serve --host=127.0.0.1 --port=8888
+```
+
+And now simply open your browser to the following URL: `http://127.0.0.1:8888`.
+
 ## Pot de vin
 
 If you like the initiative, and for the sake of good mood, I recommend you take a few minutes to Donate a beer or Three [because belgians like that] by sending some XEM (or whatever Mosaic you think pays me a few beers someday!) to my Wallet:
