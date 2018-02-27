@@ -17,7 +17,7 @@
  * @link       http://github.com/evias/nem-php-examples
  */
 
-namespace TeachNEM;
+namespace App;
 
 use NEM\Core\KeyPair;
 use NEM\Infrastructure\Account as AccountService;

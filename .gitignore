@@ -10,3 +10,6 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
+
+# Remove the next line when package is stable
+composer.lock

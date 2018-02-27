@@ -1,58 +1,46 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="https://nem.io/wp-content/themes/nem/img/logo-nem.svg" width="400"></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://travis-ci.org/evias/nem-php"><img src="https://travis-ci.org/evias/nem-php.svg" alt="nem-php Build Status"></a>
+<a href="https://packagist.org/packages/evias/nem-php"><img src="https://poser.pugx.org/evias/nem-php/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/evias/nem-php"><img src="https://poser.pugx.org/evias/nem-php/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/evias/nem-php"><img src="https://poser.pugx.org/evias/nem-php/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## About this package
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+This package provides with *example integrations* of the [evias/nem-php](https://github.com/evias/nem-php) NEM SDK for PHP.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+It should provide with features that are easy to reproduce and showcase how the `evias/nem-php` library can be integrated in your projects.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+The laravel application *is only a wrapper* to provide with a web application that can be served on any of Apache or Nginx. Please use composer as mentioned in the following section.
 
-## Learning Laravel
+## Installation
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+You will need to install `composer` first. Then clone this repository and install its dependencies as follows:
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+```bash
+$ git clone https://github.com/evias/nem-php-examples
+$ cd nem-php-examples
+$ composer install
+```
 
-## Laravel Sponsors
+Now you are ready to test out the NEM SDK for PHP!
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+NEMjoy :)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
+## Pot de vin
 
-## Contributing
+If you like the initiative, and for the sake of good mood, I recommend you take a few minutes to Donate a beer or Three [because belgians like that] by sending some XEM (or whatever Mosaic you think pays me a few beers someday!) to my Wallet:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    NB72EM6TTSX72O47T3GQFL345AB5WYKIDODKPPYW
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+| Username | Role |
+| --- | --- |
+| [eVias](https://github.com/evias) | Project Lead |
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This software is released under the [MIT](LICENSE) License.
+
+© 2017-2018 Grégory Saive <greg@evias.be>, All rights reserved.
